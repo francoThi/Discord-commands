@@ -1,0 +1,32 @@
+{
+    "name": "in-my-mind-discord",
+    "version": "1.0.0",
+    "description": "Guess what I'm thinking ?",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "update-commands": "node deploy-commands.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/francoThi/in-my-mind-discord.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/francoThi/in-my-mind-discord/issues"
+    },
+    "homepage": "https://github.com/francoThi/in-my-mind-discord#readme",
+    "dependencies": {
+      "@discordjs/builders": "^0.7.0",
+      "@discordjs/rest": "0.1.0-canary.0",
+      "discord-api-types": "^0.24.0",
+      "discord.js": "^13.3.0-dev.1634731396.579569a"
+    },
+    "devDependencies": {
+      "@colyseus/loadtest": "^0.14.7",
+      "eslint": "^8.0.1"
+    }
+  }
+  
